@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Trip Lover</title>
+  </head>
+  <body class="home">
+    <header class="header">
+      <h1 class="header__logo">Trip Lover</h1>
+
+      <nav>
+        <ul class="header__navigation-list">
+          <li class="header__navigation-list-item">Home</li>
+          <li class="header__navigation-list-item">Sobre</li>
+          <li class="header__navigation-list-item">Artigos</li>
+          <li class="header__navigation-list-item">Fotos</li>
+          <li class="header__navigation-list-item">Contatos</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="home__main-container">
+      <h1 class="typography__title--large">Melhores da semana</h1>
+
+      <div class="home__grid-news">
+        <div class="animations__fade-in home__news home__news--main">
+          <h3>Um texto qualquer</h3>
+          <div class="home__news--main-image"></div>
+        </div>
+
+        <div class="animations__fade-in home__news home__news--secondary"></div>
+
+        <div class="animations__fade-in home__news home__news--article">
+          <div class="home__news--article-image"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
