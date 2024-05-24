@@ -3,4 +3,12 @@
   font-style: italic;
   font-weight: 500;
   font-size: 5.6rem;
+  color: #1e1e1e;
+}
+
+.typography__heading--3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  color: #1e1e1e;
 }
