@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.header__logo {
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+}
+
+.header__navigation-list {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.header__navigation-list-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
