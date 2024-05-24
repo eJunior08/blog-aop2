@@ -30,6 +30,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 @media (min-width: 700px) {
   :root {
     font-size: 62.5%;

@@ -6,9 +6,30 @@
   color: #1e1e1e;
 }
 
+.typography__heading--1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  color: #1e1e1e;
+}
+
+.typography__heading--2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 3.6rem;
+  color: #1e1e1e;
+}
+
 .typography__heading--3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 2.4rem;
+  color: #1e1e1e;
+}
+
+.typography__description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
   color: #1e1e1e;
 }
