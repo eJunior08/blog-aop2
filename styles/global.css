@@ -1,0 +1,49 @@
+:root {
+  font-size: 60%;
+
+  --color-primary-lighter: #1e1e1e;
+  --color-primary-darker: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+*,
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary-lighter);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-darker);
+  }
+}
