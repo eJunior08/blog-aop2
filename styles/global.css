@@ -40,6 +40,7 @@ ul {
   }
 
   ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
     background-color: var(--color-primary-lighter);
   }
 
