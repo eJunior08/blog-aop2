@@ -35,6 +35,12 @@
   padding: 1rem;
 }
 
+.home__description {
+  width: 70%;
+  text-align: justify;
+  margin-bottom: 1.6rem;
+}
+
 .home__news {
   border-radius: 2.4rem;
   cursor: pointer;
