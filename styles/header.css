@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 3.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .header__logo {

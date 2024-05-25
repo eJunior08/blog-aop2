@@ -2,10 +2,8 @@
   height: 100%;
   width: 100%;
 
-  display: flex;
-  flex-direction: column;
-
   padding: 2.4rem;
+  padding-bottom: 0;
 }
 
 .home__main-container {
@@ -125,6 +123,7 @@
   grid-area: S;
   background-color: #77beba;
   animation-delay: 0.5s;
+  padding: 2.4rem;
 }
 
 .home__news--article {
@@ -132,6 +131,7 @@
   position: relative;
   overflow: hidden;
   animation-delay: 0.8s;
+  padding: 2.4rem;
 }
 
 .home__news--article-image {

@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/typography.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
     <link rel="stylesheet" href="./styles.css" />
@@ -43,10 +44,13 @@
     </header>
 
     <main class="home__main-container">
-      <h1 class="typography__title--large">Melhores da semana</h1>
+      <h1 class="typography__title--large">Diário de um viajante</h1>
 
       <div class="home__grid-news">
-        <div class="animations__fade-in--left home__news home__news--main">
+        <div
+          class="animations__fade-in--left home__news home__news--main"
+          onclick="onMainClick()"
+        >
           <div class="home__news--main-published-container">
             24 de Maio, 2024
           </div>
@@ -73,12 +77,70 @@
 
         <div
           class="animations__fade-in--right home__news home__news--secondary"
-        ></div>
+          onclick="onAboutClick()"
+        >
+          <h3 class="typography__heading--3 home__news--main-title-container">
+            <span class="home__news--main-title"> Conheça-nos melhor </span>
+          </h3>
 
-        <div class="animations__fade-in--right home__news home__news--article">
+          <img
+            class="home__right-arrow"
+            src="assets/icons/right-arrow.svg"
+            alt="Right arrow"
+          />
+        </div>
+
+        <div
+          class="animations__fade-in--right home__news home__news--article"
+          onclick="onGalleryClick()"
+        >
+          <h3 class="typography__heading--3 home__news--main-title-container">
+            <span class="home__news--main-title"> Nossas fotos </span>
+          </h3>
+
           <div class="home__news--article-image"></div>
+
+          <img
+            class="home__right-arrow"
+            src="assets/icons/right-arrow.svg"
+            alt="Right arrow"
+          />
         </div>
       </div>
     </main>
   </body>
+
+  <footer class="footer">Trip Lover ® 2024</footer>
+
+  <script>
+    function onAboutClick() {
+      const currentDirectory = window.location.pathname.substring(
+        0,
+        window.location.pathname.lastIndexOf("/")
+      );
+
+      window.location.href =
+        window.location.origin + currentDirectory + "/about/index.html";
+    }
+
+    function onGalleryClick() {
+      const currentDirectory = window.location.pathname.substring(
+        0,
+        window.location.pathname.lastIndexOf("/")
+      );
+
+      window.location.href =
+        window.location.origin + currentDirectory + "/gallery/index.html";
+    }
+
+    function onMainClick() {
+      const currentDirectory = window.location.pathname.substring(
+        0,
+        window.location.pathname.lastIndexOf("/")
+      );
+
+      window.location.href =
+        window.location.origin + currentDirectory + "/articles/index.html";
+    }
+  </script>
 </html>
